@@ -7,5 +7,6 @@
 ![image](https://user-images.githubusercontent.com/61927381/144014303-84106bba-69e8-4fe2-ac5a-392211a071d8.png)
 
 #### Bisa buat belajar juga ya untuk referensi lainnya~
-Link : 
-Preview : 
+| Link  |
+| ------------- |
+| [Simple Blog - CRUD](https://github.com/shafilahaf/simpleBlog)  |
