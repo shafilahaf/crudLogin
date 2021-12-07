@@ -88,6 +88,12 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
                         <td>' . $row[1] . '</td>
                         <td>' . $row[2] . '</td>
                         <td style="width: 80px"> <img src="upload/thumbs/artikel/' . $row[3] . '" width="100%" height=auto></td>
+                        <td class="text-center">
+
+                        <a class="btn btn-warning me-3" href="?menu=artikel&act=editor&id=' . $row[0]. '">EDIT</a>
+                        <a class="btn btn-danger" onclick="return confirm(\'Apakah yakin dihapus?\')" href="'.$link.'?menu=modul&act=delete&id='.$row[0].'">HAPUS</a>
+
+                        </td>
                         </tr>';
                         $no++;
                     }
