@@ -1,2 +1,6 @@
 # crudLogin
-Login and upload file
+
+## Bisa buat belajar juga ya ini, gabungan code dosen dan asisten~
+| Link  |
+| ------------- |
+| [Simple Blog - CRUD](https://github.com/shafilahaf/simpleBlog)  |
