@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 21, 2021 at 05:39 AM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 8.0.7
+-- Generation Time: Nov 30, 2021 at 12:57 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -39,10 +39,8 @@ CREATE TABLE `artikel` (
 --
 
 INSERT INTO `artikel` (`id_artikel`, `judul`, `isi`, `gambar`) VALUES
-('A0001', 'Satoru Gojo', '(五ご条じょう悟さとる Gojō Satoru?) is one of the main protagonists of Jujutsu Kaisen. He is a special grade jujutsu sorcerer and a teacher at the Tokyo Jujutsu High.', '21122021_936551731_gojo.jpg'),
-('A0002', 'Kento Nanami', '(七なな海み建けん人と Nanami Kento?) is a supporting character in Jujutsu Kaisen. He was a former student of Tokyo Jujutsu High where he was an underclassman of Satoru Gojo and Suguru Geto.', '21122021_1873103558_nanami.jpg'),
-('A0003', 'Yuji Itadori', '(虎いた杖どり悠ゆう仁じ Itadori Yūji?) is the main protagonist of the Jujutsu Kaisen series', '21122021_1418554075_itadori.jpg'),
-('A0004', 'Megumi Fushiguro', '(伏ふし黒ぐろ恵めぐみ Fushiguro Megumi?) is the deuteragonist of the Jujutsu Kaisen series. He is a first-year student at Tokyo Jujutsu High and also a descendant of the Zenin family', '21122021_269051758_megumi.jpg');
+('A0001', 'Percobaan Artikel Pertama', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris placerat diam nec eros maximus, sed sodales est commodo. In consequat ultricies tortor eget semper. Aenean ultricies consequat justo vel lobortis. Donec nec placerat velit, in bibendum justo. Praesent a venenatis diam, nec faucibus dui. Morbi at ipsum et ex efficitur convallis. Suspendisse potenti. Praesent ut tempus sem. Sed non metus ex. Morbi gravida libero porta ante auctor auctor.', '30112021_69985175_2624712725.jpg'),
+('A0002', 'CARSA Career Center Smart Assitant', 'Integer sed consectetur quam. Nulla non dapibus dui. Duis gravida tincidunt hendrerit. Fusce euismod velit at nisl congue tempor. Curabitur feugiat purus purus. Aenean suscipit, quam condimentum consectetur varius, nulla tellus feugiat ipsum, et convallis erat dui quis justo. Vivamus luctus est tortor, sagittis sodales risus congue accumsan. Duis tortor nunc, imperdiet fringilla nisl et, tincidunt tristique odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.', '30112021_975553790_KentoNanami.jpeg');
 
 -- --------------------------------------------------------
 
@@ -63,7 +61,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `password`, `name`) VALUES
 (1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Kang Koding'),
-(2, 'ferian@hyung.oppa', 'ce28eed1511f631af6b2a7bb0a85d636', 'Pak Ferian');
+(5, 'ferian@hyung.oppa', 'ab56b4d92b40713acc5af89985d4b786', ''),
+(6, 'mbahjonas', '21232f297a57a5a743894a0e4a801fc3', '');
 
 --
 -- Indexes for dumped tables
@@ -83,7 +82,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
